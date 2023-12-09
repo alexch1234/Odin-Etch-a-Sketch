@@ -2,12 +2,8 @@
     box-sizing: border-box;
 }
 
-.grid-row {
+body {
     display: flex;
-}
-
-.grid-item {
-    width: 20px;
-    height: 20px;
-    background-color: red;
+    flex-direction: column;
+    align-items: center;
 }
